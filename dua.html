@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>🤲🏻 A Dua For You 🩵✨</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+
+margin:0;
+padding:0;
+
+height:100vh;
+
+overflow:hidden;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-family:Georgia,serif;
+
+background:
+linear-gradient(
+180deg,
+#0f172a,
+#1e293b,
+#312e81
+);
+
+color:white;
+
+}
+
+.star{
+
+position:absolute;
+animation:twinkle 3s infinite;
+
+}
+
+@keyframes twinkle{
+
+0%,100%{
+opacity:.3;
+}
+
+50%{
+opacity:1;
+}
+
+}
+
+.box{
+
+width:90%;
+max-width:850px;
+
+padding:40px;
+
+background:
+rgba(255,255,255,.12);
+
+backdrop-filter:blur(15px);
+
+border-radius:25px;
+
+text-align:center;
+
+line-height:2;
+
+}
+
+h1{
+
+margin-bottom:20px;
+
+}
+
+button{
+
+margin-top:25px;
+
+padding:15px 30px;
+
+border:none;
+
+border-radius:20px;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+background:#7dd3fc;
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>
+🤲🏻 A Dua For You 🩵✨🌙
+</h1>
+
+<p>
+
+Ya Allah 🤲🏻✨...
+
+Protect Syeda Shezaa 🥺🫶🏻🩵✨...
+
+Grant her happiness 🌹💖...
+
+Fill her heart with peace 💞✨...
+
+Guide her towards goodness 🌷🤲🏻...
+
+Protect her from sadness 😔🩵...
+
+Bless her studies 📚✨...
+
+Bless her future 🌺💝...
+
+Bless her family 🥹🫶🏻...
+
+And grant her countless reasons to smile 🌹💖💞✨...
+
+<br><br>
+
+Ameen 🤲🏻🩵✨🥹
+
+</p>
+
+<button onclick="nextPage()">
+
+🌠 One Last Thing 🩵✨
+
+</button>
+
+</div>
+
+<script>
+
+for(let i=0;i<150;i++){
+
+let star=document.createElement("div");
+
+star.className="star";
+
+star.innerHTML="✨";
+
+star.style.left=Math.random()*100+"vw";
+star.style.top=Math.random()*100+"vh";
+
+document.body.appendChild(star);
+
+}
+
+function nextPage(){
+
+window.location.href=
+"final.html";
+
+}
+
+</script>
+
+</body>
+</html>
