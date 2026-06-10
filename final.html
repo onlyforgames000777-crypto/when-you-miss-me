@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>🩵 The End... Or Maybe Not ✨</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+
+margin:0;
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+overflow:hidden;
+
+font-family:Georgia,serif;
+
+background:
+linear-gradient(
+135deg,
+#ffd6e8,
+#dbeafe,
+#fff0f5
+);
+
+text-align:center;
+
+}
+
+.box{
+
+width:90%;
+max-width:850px;
+
+padding:40px;
+
+background:white;
+
+border-radius:25px;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,.12);
+
+}
+
+h1{
+
+margin-bottom:20px;
+
+}
+
+button{
+
+padding:15px 30px;
+
+border:none;
+
+border-radius:20px;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+background:#7dd3fc;
+
+}
+
+.heart{
+
+position:absolute;
+
+font-size:30px;
+
+animation:
+float 8s linear infinite;
+
+}
+
+@keyframes float{
+
+from{
+transform:translateY(100vh);
+}
+
+to{
+transform:translateY(-100px);
+}
+
+}
+
+.message{
+
+margin-top:25px;
+
+font-size:20px;
+
+display:none;
+
+line-height:2;
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>
+🌹 One Last Thing 🥺🫶🏻🩵✨🥹
+</h1>
+
+<p>
+
+Before you leave this little website 🤧🩵✨...
+
+I just wanted to say thank you 🌹💖💞✨...
+
+Thank you for every smile 🥹...
+
+Every conversation 💝...
+
+Every memory 🌷...
+
+And every effort 🫶🏻🩵✨...
+
+</p>
+
+<button onclick="showMessage()">
+
+💖 Press Here Jaanu 🫶🏻✨
+
+</button>
+
+<div class="message" id="message">
+
+I Love You 🫶🏻🩵✨🥹🌹💐🌺🌷💝💖💗💓💞💕...
+
+Thank you for being part of my life 🤧🫶🏻✨...
+
+Alhamdulillah for every memory 🤲🏻🩵✨...
+
+Alhamdulillah for every smile 🤲🏻💖✨...
+
+Alhamdulillah for you 🥺🫶🏻🩵✨🥹...
+
+</div>
+
+</div>
+
+<script>
+
+for(let i=0;i<50;i++){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="💖";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=
+(5+Math.random()*5)+"s";
+
+document.body.appendChild(heart);
+
+}
+
+function showMessage(){
+
+document.getElementById("message")
+.style.display="block";
+
+alert("🥺🫶🏻🩵✨🌹💖💞 Surpriseee Jaanuuu ✨");
+
+}
+
+</script>
+
+</body>
+</html>
