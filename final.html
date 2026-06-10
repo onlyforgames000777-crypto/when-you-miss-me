@@ -166,8 +166,11 @@ let heart=document.createElement("div");
 
 heart.className="heart";
 
-heart.innerHTML="💖";
+let items=
+["💖","💝","💕","💞","🌹","🌷","💐","🌺"];
 
+heart.innerHTML=
+items[Math.floor(Math.random()*items.length)];
 heart.style.left=Math.random()*100+"vw";
 
 heart.style.animationDuration=
