@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>🩵 The End.... Or Maybe Not ✨</title>
+<title>🩵 The End... Or Maybe Not ✨</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -161,16 +161,14 @@ Alhamdulillah for you 🥺🫶🏻🩵✨🥹...
 
 <script>
 
-for(let i=0;i<100;i++){
+for(let i=0;i<50;i++){
+
 let heart=document.createElement("div");
 
 heart.className="heart";
 
-let items=
-["💖","💝","💕","💞","🌹","🌷","💐","🌺"];
+heart.innerHTML="💖";
 
-heart.innerHTML=
-items[Math.floor(Math.random()*items.length)];
 heart.style.left=Math.random()*100+"vw";
 
 heart.style.animationDuration=
@@ -185,35 +183,11 @@ function showMessage(){
 document.getElementById("message")
 .style.display="block";
 
-for(let i=0;i<150;i++){
-
-let confetti=
-document.createElement("div");
-
-confetti.innerHTML=
-["🎊","🎉","✨","💖","💝","🌹","🌷","💐"][Math.floor(Math.random()*8)];
-
-confetti.style.position="fixed";
-
-confetti.style.left=
-Math.random()*100+"vw";
-
-confetti.style.top="-50px";
-
-confetti.style.fontSize=
-(20+Math.random()*20)+"px";
-
-confetti.style.transition=
-"5s linear";
-
-document.body.appendChild(confetti);
-
-setTimeout(()=>{
-
-confetti.style.top="110vh";
-
-},100);
+alert("🥺🫶🏻🩵✨🌹💖💞 Surpriseee Jaanuuu ✨");
 
 }
 
-}
+</script>
+
+</body>
+</html>
